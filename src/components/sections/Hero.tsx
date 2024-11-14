@@ -62,6 +62,7 @@ const TypewriterText: React.FC<{ texts: string[] }> = ({ texts }) => {
 
 
 export default function Hero() {
+  
   return (
     <section className=" flex flex-col items-center justify-center min-h-screen py-12 md:py-24 overflow-hidden">
       <motion.div

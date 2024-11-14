@@ -74,7 +74,7 @@ export default function Projects() {
       <div className="container px-4 mx-auto">
         <motion.h2 
           ref={titleRef}
-          className="text-3xl md:text-4xl font-bold text-center mb-24 text-primary"
+          className="text-3xl md:text-4xl font-bold text-center mb-24"
           initial={{ opacity: 0, y: -20 }}
           animate={titleInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -20 }}
           transition={{ duration: 0.5 }}

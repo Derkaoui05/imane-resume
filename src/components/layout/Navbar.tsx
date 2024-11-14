@@ -61,7 +61,7 @@ const DockNavigation: React.FC = () => {
   const dockItems = [
     { icon: <Home className="w-6 h-6" />, label: "Home", href: "/" },
     { icon: <User className="w-6 h-6" />, label: "Profile", href: "/profile" },
-    { icon: <Zap className="w-6 h-6" />, label: "Resume", href: "/resume" },
+    { icon: <Zap className="w-6 h-6" />, label: "Blog", href: "/blog" },
     { icon: <Mail className="w-6 h-6" />, label: "Contact", href: "/contact" },
   ]
 

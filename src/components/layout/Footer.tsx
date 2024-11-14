@@ -2,8 +2,9 @@
 
 import React, { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Heart, Coffee, Github, Linkedin, Twitter } from 'lucide-react'
+import { Heart, Coffee, Github, Linkedin,  Instagram } from 'lucide-react'
 import ShimmerButton from '../ui/shimmer-button'
+import Link from 'next/link'
 
 export default function Footer() {
   const ref = useRef(null)
@@ -49,18 +50,18 @@ export default function Footer() {
             className="flex space-x-6"
             variants={itemVariants}
           >
-            <a href="https://github.com/Imane029" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
+            <Link href="https://github.com/Imane029" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
               <Github className="w-6 h-6" />
               <span className="sr-only">GitHub</span>
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
+            </Link>
+            <Link href="https://www.linkedin.com/in/imane-ryad-628a54242/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
               <Linkedin className="w-6 h-6" />
               <span className="sr-only">LinkedIn</span>
-            </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
-              <Twitter className="w-6 h-6" />
-              <span className="sr-only">Twitter</span>
-            </a>
+            </Link>
+            <Link href="https://www.instagram.com/imane_ryad/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300 transition-colors">
+              <Instagram className="w-6 h-6" />
+              <span className="sr-only">Instagram</span>
+            </Link>
           </motion.div>
           
           <motion.p 
